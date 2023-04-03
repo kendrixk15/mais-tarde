@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Fasthand&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alkatra&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer base {
+  .about-us-font {
+    font-family: 'Alkatra', cursive;
+  }
+  .about-us-font{
+    @apply text-white text-2xl
+  }
+}
