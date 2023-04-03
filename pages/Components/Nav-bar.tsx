@@ -16,7 +16,7 @@ const NavBar = () => {
       <div className=" flex md:hidden w-full h-4 gap-16 justify-between pb-12 px-1 bg-white shadow-sm text-black text-[14px] fixed left-0">
         <Link href={""}>
           <div>
-            <img src="/mais-tarde-white.png" className="h-10 w-auto -ml-2" />
+            <img src="/mais-tarde-white.png" className="h-10 w-auto -ml-2 mt-1 md:mt-0" />
           </div>
         </Link>
         <button onClick={() => setIsOpen(!isOpen)} className="mt-2 transition-all ">
